@@ -1,0 +1,16 @@
+{
+  "name": "personal_portfolio22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d responsive-portfolio-website"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://nicocoa10.github.io/personal_portfolio_2022",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
