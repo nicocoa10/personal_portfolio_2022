@@ -166,3 +166,21 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
+
+// Contact form functionality
+
+function sendEmail(){
+
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "nicodesmedia@gmail.com",
+        Password : "^viM2pthgjU8",
+        To : 'nicolas.ojeda71@gmail.com',
+        From : document.getElementById('email').value,
+        Subject : "New Contact Form",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+
+}

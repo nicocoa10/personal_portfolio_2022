@@ -394,11 +394,13 @@ img {
 
 }
 
+
 .button:hover {
 
   background-color: var(--first-color-alt) ;
 
 }
+
 
 .button__icon{
   font-size: 1.25rem;
@@ -420,6 +422,35 @@ img {
   display: inline-flex;
   align-items: center;
 }
+
+input[type="submit" i] {
+  appearance: auto;
+  user-select: none;
+  white-space: pre;
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: var(--first-color) ;
+  color: #fff;
+  padding: 1rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+  font-size: 1rem;
+  border: none;
+  height: 3.7rem;
+  cursor: pointer;
+  font-weight:500;
+
+}
+
+input[type="submit" i]:hover {
+  background-color: var(--first-color-alt) ;
+
+}
+
+
+
 
 
 /*==================== ABOUT ====================*/
@@ -1028,7 +1059,7 @@ img {
   .header,
   .main,
   .footer__container{
-
+    margin-top: 16px;
     padding: 0 1rem;
 
 }
@@ -1204,4 +1235,10 @@ img {
     grid-template-columns: repeat(2,1fr);
   }
   
+}
+
+.thanks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
