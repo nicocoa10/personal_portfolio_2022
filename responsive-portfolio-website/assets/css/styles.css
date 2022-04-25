@@ -1236,3 +1236,9 @@ input[type="submit" i]:hover {
   }
   
 }
+
+.thanks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
