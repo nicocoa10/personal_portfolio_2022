@@ -1059,7 +1059,7 @@ input[type="submit" i]:hover {
   .header,
   .main,
   .footer__container{
-    margin-top: 16px;
+    /* margin-top: 16px; */
     padding: 0 1rem;
 
 }
@@ -1241,4 +1241,5 @@ input[type="submit" i]:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
